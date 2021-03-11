@@ -29,7 +29,8 @@ def print_weather(weather):
                     Влажность: {humidity}% \n \
                     Скорость ветра: {wind} м/с \n \
                     Погодные условия: {desc} \n \
-                    Восход: {sunrise} \n Закат: {sunset}"
+                    Восход: {sunrise} \n \
+                    Закат: {sunset}"
     except:
         return 'Ошибка получения данных...'
 
